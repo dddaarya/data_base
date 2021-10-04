@@ -1,0 +1,18 @@
+CREATE DATABASE hw_29_09_2021;
+
+CREATE TABLE shop (
+    shop_count integer,
+    shop_price integer,
+    shop_name text
+);
+
+INSERT INTO shop VALUES (1, 123, 'Сок');
+INSERT INTO shop VALUES (2, 150, 'Курица');
+INSERT INTO shop VALUES (3, 50, 'Йогурт');
+INSERT INTO shop VALUES (4, 5, 'Тетрадь');
+INSERT INTO shop VALUES (5, 65, 'Молоко');
+INSERT INTO shop VALUES (6, 67, 'Печенье');
+INSERT INTO shop VALUES (7, 84, 'Хлеб');
+INSERT INTO shop VALUES (8, 275, 'Рыба');
+INSERT INTO shop VALUES (9, 56, 'Кефир');
+INSERT INTO shop VALUES (10, 430, 'Сало');
